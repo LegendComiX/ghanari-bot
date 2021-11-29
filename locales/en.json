@@ -1,0 +1,166 @@
+{
+  "clip": {
+    "description": "اجرای صدای یک کلیپ یا ویدئو",
+    "usagesReply": "نحوه استفاده: $clip <اسم>",
+    "errorQueue": "چیزی نمی شه اجرا کرد چون چیزی در صف نیست",
+    "errorNotChannel": "! شما ابتدا باید وارد یک وویس چنل شوید "
+  },
+  "clips": {
+    "description": "لیست تمامی دستورات"
+  },
+  "help": {
+    "description": "نمایش تمامی دستورات",
+    "embedTitle": "{botname} کمک",
+    "embedDescription": "لیست کردن تمامی دستورات"
+  },
+  "invite": {
+    "description": "ارسال لینک دعوت"
+  },
+  "loop": {
+    "description": "حلقه آهنگ ها رو تغییر می ده",
+    "errorNotQueue": "چیزی برای اجرا شدن وجود نداره",
+    "result": "{loop} تکراری روی "
+  },
+  "lyrics": {
+    "description": "نمایش متن آهنگ در حال اجرا ",
+    "errorNotQueue": ":( چیزی برای اجرا شدن وجود نداره",
+    "lyricsNotFound": "{title} متاسفانه متن آهنگی چیدا نشد",
+    "embedTitle": "{title} - متن آهنگ"
+  },
+  "move": {
+    "description": "حرکت دادن آهنگ ها در صف",
+    "errorNotQueue": "id] wtd ,[,n knhvi :(",
+    "usagesReply": "{prefix}move نحوه استفاده : رقم",
+    "result": "<@{author}> حرکت داد **{title}** به {index} 🚚"
+  },
+  "nowplaying": {
+    "description": "نمایش آهنگ در حال اجرا",
+    "errorNotQueue": ":( چیزی برای اجرا شدن وجود نداره",
+    "embedTitle": "Now playing",
+    "live": " ◉ لایو",
+    "timeRemaining": "{time} :زمان باقی مانده "
+  },
+  "pause": {
+    "description": "متوقف کردن آهنگ در حال اجرا",
+    "errorNotQueue": ":( چیزی برای اجرا شدن وجود نداره",
+    "result": "<@{author}> ⏸ آهنگ رو متوقف کرد"
+  },
+  "ping": {
+    "description": "نمایش پینگ هوشمان در ای پی ای",
+    "result": "📈 پینگ متوسط در ای پی ای : {ping} ms"
+  },
+  "play": {
+    "description": "اجرای آهنگ از یوتیوب",
+    "errorNotChannel": "! شما ابتدا باید وارد یک وویس چنل شوید ",
+    "errorNotInSameChannel": "شما باید با ایشون تو یک چنل باشید {user}",
+    "usageReply": "نحوه استفاده: {prefix}بنواز <YouTube URL | Video Name | Soundcloud URL>",
+    "missingPermissionConnect": "امکان اتصال به وویس چت نیست، باید اجازه و پرمیشن بدین بم",
+    "missingPermissionSpeak": "نمی تونم تو این وویس چنل چیزی اجرا کنم، اجازه و پرمیشن می خوام",
+    "queueAdded":  " این **{title}** به واسطه ایشون اضافه شد<@{author}> ✅",
+    "cantJoinChannel": "Could not join the channel: {error}",
+    "queueEnded": "❌اجرای اهنگ به پایان رسید",
+    "queueError": "Error: {error}",
+    "startedPlaying": "🎶 شروع به اجرای اهنگ: **{title}** {url}",
+    "skipSong": "<@{author}> ⏩ آهنگ رو رد کرد ",
+    "pauseSong": "<@{author}> ⏸ آهنگ رو متوقف کرد",
+    "resumeSong": "<@{author}> ▶ ! ادامه موسیقی ",
+    "unmutedSong": "<@{author}> 🔊 ! آهنگ رو صدادار کرد",
+    "mutedSong": "<@{author}> 🔇 آهنگ رو بی صدا کرد",
+    "decreasedVolume": "<@{author}> 🔉  {volume}% کاهش صدای آهنگ, میزان صدا در حال حاضر",
+    "increasedVolume": "<@{author}> 🔊 {volume}% افزایش صدای اهنگ، میزان صدا در حال حاضر",
+    "loopSong": "<@{author}> نکرار الان {loop}",
+    "stopSong": "<@{author}> ⏹ آهنگ رو متوقف کرد ",
+    "leaveChannel": "👩‍🦯 در حال ترک وویس چت ... خدافص شما ",
+    "songNotFound": " :( آهنگ پیدا نشد"
+  },
+  "playlist": {
+    "description": "اجرای پلی لیسا از یوتیوب",
+    "usagesReply": "Usage: {prefix}playlist <YouTube Playlist URL | Playlist Name>",
+    "errorNotChannel": "! شما ابتدا باید وارد یک وویس چنل شوید",
+    "errorNotInSameChannel": "شما باید با ایشون تو یک چنل باشید {user}",
+    "missingPermissionConnect": "امکان اتصال به وویس چت نیست، باید اجازه و پرمیشن بدین بم",
+    "missingPermissionSpeak": "نمی تونم تو این وویس چنل چیزی اجرا کنم، اجازه و پرمیشن می خوام",
+    "errorNotFoundPlaylist": ":( پلی لیستی پیدا نشد ",
+    "fetchingPlaylist": "در حال ترکیب پلی لیست ... ⌛",
+    "playlistCharLimit": "\nPlaylist larger than character limit...",
+    "startedPlaylist": "<@{author}> یک پلی لیست رو شروع کرد",
+    "cantJoinChannel": "Could not join the channel: {error}"
+  },
+  "pruning": {
+    "description": "تغییر نحوه پارنینگ پیام های هوشمان",
+    "errorWritingFile": "مشکلی در نوشتن فایل وجود داره",
+    "result": "{result} هرس پیام ها "
+  },
+  "queue": {
+    "description": "نمایش صف موسیقی و در حال پخش",
+    "missingPermissionMessage": "اجازه ارسال پیام داده نشده",
+    "errorNotQueue": "❌ **چیزی تو سرور پخش نمی شه**",
+    "currentPage": "صفحه فعلی - ",
+    "embedTitle": "Song Queue\n",
+    "embedCurrentSong": "**Current Song - [{title}]({url})**\n\n{info}"
+  },
+  "remove": {
+    "description": "حذف آهنگ از صف",
+    "errorNotQueue": "چیزی تو صف نیست",
+    "usageReply": "Usage: {prefix}حذف <Queue Number>",
+    "result": "<@{author}> ❌ رو حذف کرد **{title}** از صف "
+  },
+  "resume": {
+    "description": "ادامه آهنگ در حال چخش",
+    "errorNotQueue": "چیزی برای اجرا شدن وجود نداره",
+    "resultNotPlaying": "<@{author}> ▶ !آهنگ رو ادامه داد ",
+    "errorPlaying": "!صف متوقف نشده"
+  },
+  "search": {
+    "description": "جست و جو و انتخاب ویدئو برای اجرا شدن",
+    "usageReply": "Usage: {prefix}{اسم} <اسم ویدئو>",
+    "errorAlreadyCollector": "جمع‌آوری پیام از قبل در این کانال فعال شده",
+    "errorNotChannel": "! شما ابتدا باید وارد چنل وویس شوید",
+    "resultEmbedTitle": "**Reply with the song number you want to play**",
+    "resultEmbedDesc": "نتیجه برای: {search}"
+  },
+  "shuffle": {
+    "description": "بر زدن آهنگ ها XD",
+    "errorNotQueue": "چیری در صف نیست",
+    "result": "<@{author}> 🔀 آهنگ ها رو بر زد"
+  },
+  "skip": {
+    "description": "رد کردن آهنگ در حال اجرا",
+    "errorNotQueue": "چیزی در حال پخش شدن نیست که بخوام ردش کنم",
+    "result": "<@{author}> ⏭ آهنگ رو رد کرد"
+  },
+  "skipto": {
+    "description": "می رین به شماره صف انتخاب شده",
+    "usageReply": "Usage: {prefix}{اسم} <شماره صف>",
+    "errorNotQueue": "چیزی در صف نیست",
+    "errorNotValid": "The queue is only {length} songs long!",
+    "result": "<@{author}> ⏭ skipped {arg} songs"
+  },
+  "stop": {
+    "description": "متوقف کردن آهنگ",
+    "errorNotQueue": "چیزی در حال پخش شدن نیست که متوقفش کنم",
+    "result": "<@{author}> ⏹ آهنگ رو متوقف کرد"
+  },
+  "uptime": {
+    "description": "چک کردن آپتایم",
+    "result": "Uptime: `{days} day(s),{hours} hours, {minutes} minutes, {seconds} seconds`"
+  },
+  "volume": {
+    "description": "تغییر میزان صدای آهنگ در حال پخش",
+    "errorNotQueue": "چیزی در حال پخش شدن نیست",
+    "errorNotChannel": "! شما ابتدا باید وارد وویس چنل شوید",
+    "currentVolume": "🔊 صدا در حال پخش: **{volume}%**",
+    "errorNotNumber": "لطفا یک عدد رو برای ست کردن میزان صدا انتخاب کنید",
+    "errorNotValid": "لطفا یک عدد بین 0 تا 100 انتخاب کنید",
+    "result": "میزان صدا تنظیم شد روی : **{arg}%**"
+  },
+  "common": {
+    "on": "**on**",
+    "off": "**off**",
+    "enabled": "**enabled**",
+    "disabled": "**disabled**",
+    "errorNotChannel": "You need to join a voice channel first!",
+    "cooldownMessage": "please wait {time} more second(s) before reusing the `{name}` command.",
+    "errorCommand": "There was an error executing that command."
+  }
+}
